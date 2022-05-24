@@ -16,17 +16,88 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ye4-c4-ylb">
-                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fMW-sN-atO" userLabel="HeaderView">
+                                <rect key="frame" x="0.0" y="44" width="414" height="80"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RaT-TG-UZf">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1511.5"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tyg-Sy-vI4" userLabel="LogoView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LX2-BO-7Jb">
-                                                <rect key="frame" x="10" y="0.0" width="394" height="1501.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SERIESON" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4l-kS-V6K">
+                                                <rect key="frame" x="162.5" y="14.5" width="89.5" height="21.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="c4l-kS-V6K" firstAttribute="centerX" secondItem="tyg-Sy-vI4" secondAttribute="centerX" id="NX5-sN-BGa"/>
+                                            <constraint firstAttribute="height" constant="50" id="hyr-e2-Jgp"/>
+                                            <constraint firstItem="c4l-kS-V6K" firstAttribute="centerY" secondItem="tyg-Sy-vI4" secondAttribute="centerY" id="w7U-jL-Gcm"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="E4x-8i-8Hi" userLabel="CategoryView">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yl6-p6-ULa">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="영화홈">
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8eo-x9-9pb">
+                                                <rect key="frame" x="78" y="0.0" width="61.5" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="무료">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXr-Pc-lBd">
+                                                <rect key="frame" x="139.5" y="0.0" width="102.5" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="TOP 100">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rd-3Q-hXy">
+                                                <rect key="frame" x="242" y="0.0" width="78" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="이벤트">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCP-3f-IM3">
+                                                <rect key="frame" x="320" y="0.0" width="94" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="카테고리">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="5TZ-Se-tqS"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="tyg-Sy-vI4" firstAttribute="leading" secondItem="fMW-sN-atO" secondAttribute="leading" id="1a5-mZ-Tll"/>
+                                    <constraint firstItem="E4x-8i-8Hi" firstAttribute="top" secondItem="tyg-Sy-vI4" secondAttribute="bottom" id="5ST-oW-7Jc"/>
+                                    <constraint firstAttribute="trailing" secondItem="E4x-8i-8Hi" secondAttribute="trailing" id="6Z7-KY-3Qx"/>
+                                    <constraint firstItem="tyg-Sy-vI4" firstAttribute="top" secondItem="fMW-sN-atO" secondAttribute="top" id="PAV-UR-rka"/>
+                                    <constraint firstAttribute="height" constant="80" id="kNQ-MP-MnI"/>
+                                    <constraint firstItem="E4x-8i-8Hi" firstAttribute="leading" secondItem="fMW-sN-atO" secondAttribute="leading" id="uwX-oF-n0u"/>
+                                    <constraint firstAttribute="trailing" secondItem="tyg-Sy-vI4" secondAttribute="trailing" id="wP1-0M-GOi"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ye4-c4-ylb">
+                                <rect key="frame" x="0.0" y="124" width="414" height="772"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RaT-TG-UZf" userLabel="ContainerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1014.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Sv-Ek-Lac">
+                                                <rect key="frame" x="10" y="10" width="394" height="994.5"/>
                                                 <mutableString key="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
@@ -37,10 +108,10 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="LX2-BO-7Jb" firstAttribute="top" secondItem="RaT-TG-UZf" secondAttribute="top" id="Ink-rv-WlF"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="LX2-BO-7Jb" secondAttribute="trailing" constant="10" id="OPp-t5-vAn"/>
-                                            <constraint firstAttribute="bottom" secondItem="LX2-BO-7Jb" secondAttribute="bottom" constant="10" id="eYN-Jy-kfI"/>
-                                            <constraint firstItem="LX2-BO-7Jb" firstAttribute="leading" secondItem="RaT-TG-UZf" secondAttribute="leading" constant="10" id="gIN-mo-vqV"/>
+                                            <constraint firstAttribute="bottom" secondItem="7Sv-Ek-Lac" secondAttribute="bottom" constant="10" id="3FZ-Fd-9Ba"/>
+                                            <constraint firstItem="7Sv-Ek-Lac" firstAttribute="top" secondItem="RaT-TG-UZf" secondAttribute="top" constant="10" id="DfL-n5-Ybl"/>
+                                            <constraint firstItem="7Sv-Ek-Lac" firstAttribute="leading" secondItem="RaT-TG-UZf" secondAttribute="leading" constant="10" id="P70-bd-33j"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Sv-Ek-Lac" secondAttribute="trailing" constant="10" id="Un7-mx-VbW"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -58,9 +129,12 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                         <viewLayoutGuide key="safeArea" id="zhT-7M-25O"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="fMW-sN-atO" firstAttribute="leading" secondItem="zhT-7M-25O" secondAttribute="leading" id="AEJ-2K-Z0k"/>
                             <constraint firstAttribute="bottom" secondItem="ye4-c4-ylb" secondAttribute="bottom" id="Lbe-0m-26Z"/>
-                            <constraint firstItem="ye4-c4-ylb" firstAttribute="top" secondItem="zhT-7M-25O" secondAttribute="top" id="Pei-nd-pOQ"/>
+                            <constraint firstItem="fMW-sN-atO" firstAttribute="top" secondItem="zhT-7M-25O" secondAttribute="top" id="YLX-SQ-sVm"/>
                             <constraint firstItem="ye4-c4-ylb" firstAttribute="leading" secondItem="zhT-7M-25O" secondAttribute="leading" id="a02-E1-YdB"/>
+                            <constraint firstItem="zhT-7M-25O" firstAttribute="trailing" secondItem="fMW-sN-atO" secondAttribute="trailing" id="klM-vh-Jcn"/>
+                            <constraint firstItem="ye4-c4-ylb" firstAttribute="top" secondItem="fMW-sN-atO" secondAttribute="bottom" id="nUe-3z-G1y"/>
                             <constraint firstItem="ye4-c4-ylb" firstAttribute="trailing" secondItem="zhT-7M-25O" secondAttribute="trailing" id="rkq-qU-Koa"/>
                         </constraints>
                     </view>
@@ -139,6 +213,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
             <point key="canvasLocation" x="-1371" y="-661"/>
         </scene>
     </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="film.fill" catalog="system" width="128" height="93"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
