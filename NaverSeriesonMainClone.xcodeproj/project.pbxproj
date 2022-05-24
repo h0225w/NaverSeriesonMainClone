@@ -107,17 +107,13 @@
 		B75AD247283C9914002F0608 /* NaverSeriesonMainClone */ = {
 			isa = PBXGroup;
 			children = (
+				B7F1EBED283D0F9A0040FE21 /* ViewControllers */,
 				B75AD248283C9914002F0608 /* AppDelegate.swift */,
 				B75AD24A283C9914002F0608 /* SceneDelegate.swift */,
 				B75AD24E283C9914002F0608 /* Main.storyboard */,
 				B75AD251283C9914002F0608 /* Assets.xcassets */,
 				B75AD253283C9914002F0608 /* LaunchScreen.storyboard */,
 				B75AD256283C9914002F0608 /* Info.plist */,
-				B75AD278283CA9CB002F0608 /* MovieViewController.swift */,
-				B75AD27A283CAA28002F0608 /* VodViewController.swift */,
-				B75AD27C283CAA3B002F0608 /* SearchViewController.swift */,
-				B75AD27E283CAA47002F0608 /* MyPageViewController.swift */,
-				B75AD280283CAC41002F0608 /* TabBarViewController.swift */,
 			);
 			path = NaverSeriesonMainClone;
 			sourceTree = "<group>";
@@ -137,6 +133,18 @@
 				B75AD26B283C9914002F0608 /* NaverSeriesonMainCloneUITestsLaunchTests.swift */,
 			);
 			path = NaverSeriesonMainCloneUITests;
+			sourceTree = "<group>";
+		};
+		B7F1EBED283D0F9A0040FE21 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B75AD278283CA9CB002F0608 /* MovieViewController.swift */,
+				B75AD27A283CAA28002F0608 /* VodViewController.swift */,
+				B75AD27C283CAA3B002F0608 /* SearchViewController.swift */,
+				B75AD27E283CAA47002F0608 /* MyPageViewController.swift */,
+				B75AD280283CAC41002F0608 /* TabBarViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

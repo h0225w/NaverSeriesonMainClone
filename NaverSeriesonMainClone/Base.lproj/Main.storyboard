@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fMW-sN-atO" userLabel="HeaderView">
-                                <rect key="frame" x="0.0" y="44" width="414" height="80"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="90"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tyg-Sy-vI4" userLabel="LogoView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
@@ -36,38 +36,38 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="E4x-8i-8Hi" userLabel="CategoryView">
-                                        <rect key="frame" x="0.0" y="50" width="414" height="30"/>
+                                        <rect key="frame" x="0.0" y="50" width="414" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yl6-p6-ULa">
-                                                <rect key="frame" x="0.0" y="0.0" width="78" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="40"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="영화홈">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8eo-x9-9pb">
-                                                <rect key="frame" x="78" y="0.0" width="61.5" height="30"/>
+                                                <rect key="frame" x="78" y="0.0" width="61.5" height="40"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="무료">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXr-Pc-lBd">
-                                                <rect key="frame" x="139.5" y="0.0" width="102.5" height="30"/>
+                                                <rect key="frame" x="139.5" y="0.0" width="102.5" height="40"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TOP 100">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rd-3Q-hXy">
-                                                <rect key="frame" x="242" y="0.0" width="78" height="30"/>
+                                                <rect key="frame" x="242" y="0.0" width="78" height="40"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="이벤트">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCP-3f-IM3">
-                                                <rect key="frame" x="320" y="0.0" width="94" height="30"/>
+                                                <rect key="frame" x="320" y="0.0" width="94" height="40"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="카테고리">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
@@ -75,7 +75,7 @@
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="5TZ-Se-tqS"/>
+                                            <constraint firstAttribute="height" constant="40" id="5TZ-Se-tqS"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
@@ -84,24 +84,24 @@
                                     <constraint firstItem="E4x-8i-8Hi" firstAttribute="top" secondItem="tyg-Sy-vI4" secondAttribute="bottom" id="5ST-oW-7Jc"/>
                                     <constraint firstAttribute="trailing" secondItem="E4x-8i-8Hi" secondAttribute="trailing" id="6Z7-KY-3Qx"/>
                                     <constraint firstItem="tyg-Sy-vI4" firstAttribute="top" secondItem="fMW-sN-atO" secondAttribute="top" id="PAV-UR-rka"/>
-                                    <constraint firstAttribute="height" constant="80" id="kNQ-MP-MnI"/>
+                                    <constraint firstAttribute="height" constant="90" id="kNQ-MP-MnI"/>
                                     <constraint firstItem="E4x-8i-8Hi" firstAttribute="leading" secondItem="fMW-sN-atO" secondAttribute="leading" id="uwX-oF-n0u"/>
                                     <constraint firstAttribute="trailing" secondItem="tyg-Sy-vI4" secondAttribute="trailing" id="wP1-0M-GOi"/>
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ye4-c4-ylb">
-                                <rect key="frame" x="0.0" y="124" width="414" height="772"/>
+                                <rect key="frame" x="0.0" y="134" width="414" height="762"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RaT-TG-UZf" userLabel="ContainerView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1014.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Sv-Ek-Lac">
                                                 <rect key="frame" x="10" y="10" width="394" height="994.5"/>
-                                                <mutableString key="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                                <string key="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</mutableString>
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -139,6 +139,10 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="영화" image="film.fill" catalog="system" id="Ruq-N2-yJv"/>
+                    <connections>
+                        <outlet property="HeaderView" destination="fMW-sN-atO" id="8nB-bu-BDr"/>
+                        <outlet property="ScrollView" destination="ye4-c4-ylb" id="N8g-NS-2Tr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAp-MK-KAU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
