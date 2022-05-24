@@ -19,5 +19,6 @@ class TabBarViewController: UITabBarController {
         self.tabBar.backgroundColor = .black
         self.tabBar.tintColor = .white
         self.tabBar.unselectedItemTintColor = .systemGray3
+        self.tabBar.isTranslucent = false // 탭 바 반투명 여부
     }
 }
