@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		B75AD249283C9914002F0608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AD248283C9914002F0608 /* AppDelegate.swift */; };
 		B75AD24B283C9914002F0608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AD24A283C9914002F0608 /* SceneDelegate.swift */; };
-		B75AD24D283C9914002F0608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AD24C283C9914002F0608 /* ViewController.swift */; };
 		B75AD250283C9914002F0608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75AD24E283C9914002F0608 /* Main.storyboard */; };
 		B75AD252283C9914002F0608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75AD251283C9914002F0608 /* Assets.xcassets */; };
 		B75AD255283C9914002F0608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75AD253283C9914002F0608 /* LaunchScreen.storyboard */; };
 		B75AD260283C9914002F0608 /* NaverSeriesonMainCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AD25F283C9914002F0608 /* NaverSeriesonMainCloneTests.swift */; };
 		B75AD26A283C9914002F0608 /* NaverSeriesonMainCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AD269283C9914002F0608 /* NaverSeriesonMainCloneUITests.swift */; };
 		B75AD26C283C9914002F0608 /* NaverSeriesonMainCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AD26B283C9914002F0608 /* NaverSeriesonMainCloneUITestsLaunchTests.swift */; };
+		B75AD279283CA9CB002F0608 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AD278283CA9CB002F0608 /* MovieViewController.swift */; };
+		B75AD27B283CAA28002F0608 /* VodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AD27A283CAA28002F0608 /* VodViewController.swift */; };
+		B75AD27D283CAA3B002F0608 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AD27C283CAA3B002F0608 /* SearchViewController.swift */; };
+		B75AD27F283CAA47002F0608 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AD27E283CAA47002F0608 /* MyPageViewController.swift */; };
+		B75AD281283CAC41002F0608 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AD280283CAC41002F0608 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		B75AD245283C9914002F0608 /* NaverSeriesonMainClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverSeriesonMainClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75AD248283C9914002F0608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B75AD24A283C9914002F0608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B75AD24C283C9914002F0608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B75AD24F283C9914002F0608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B75AD251283C9914002F0608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B75AD254283C9914002F0608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		B75AD265283C9914002F0608 /* NaverSeriesonMainCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaverSeriesonMainCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75AD269283C9914002F0608 /* NaverSeriesonMainCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverSeriesonMainCloneUITests.swift; sourceTree = "<group>"; };
 		B75AD26B283C9914002F0608 /* NaverSeriesonMainCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverSeriesonMainCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B75AD278283CA9CB002F0608 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		B75AD27A283CAA28002F0608 /* VodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodViewController.swift; sourceTree = "<group>"; };
+		B75AD27C283CAA3B002F0608 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B75AD27E283CAA47002F0608 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		B75AD280283CAC41002F0608 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				B75AD248283C9914002F0608 /* AppDelegate.swift */,
 				B75AD24A283C9914002F0608 /* SceneDelegate.swift */,
-				B75AD24C283C9914002F0608 /* ViewController.swift */,
 				B75AD24E283C9914002F0608 /* Main.storyboard */,
 				B75AD251283C9914002F0608 /* Assets.xcassets */,
 				B75AD253283C9914002F0608 /* LaunchScreen.storyboard */,
 				B75AD256283C9914002F0608 /* Info.plist */,
+				B75AD278283CA9CB002F0608 /* MovieViewController.swift */,
+				B75AD27A283CAA28002F0608 /* VodViewController.swift */,
+				B75AD27C283CAA3B002F0608 /* SearchViewController.swift */,
+				B75AD27E283CAA47002F0608 /* MyPageViewController.swift */,
+				B75AD280283CAC41002F0608 /* TabBarViewController.swift */,
 			);
 			path = NaverSeriesonMainClone;
 			sourceTree = "<group>";
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B75AD24D283C9914002F0608 /* ViewController.swift in Sources */,
+				B75AD27D283CAA3B002F0608 /* SearchViewController.swift in Sources */,
+				B75AD27F283CAA47002F0608 /* MyPageViewController.swift in Sources */,
+				B75AD27B283CAA28002F0608 /* VodViewController.swift in Sources */,
 				B75AD249283C9914002F0608 /* AppDelegate.swift in Sources */,
+				B75AD281283CAC41002F0608 /* TabBarViewController.swift in Sources */,
 				B75AD24B283C9914002F0608 /* SceneDelegate.swift in Sources */,
+				B75AD279283CA9CB002F0608 /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
