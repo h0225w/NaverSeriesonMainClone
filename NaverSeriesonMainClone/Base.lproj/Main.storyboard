@@ -93,25 +93,70 @@
                                 <rect key="frame" x="0.0" y="134" width="414" height="762"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RaT-TG-UZf" userLabel="ContainerView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1014.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Sv-Ek-Lac">
-                                                <rect key="frame" x="10" y="10" width="394" height="994.5"/>
-                                                <string key="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPr-bL-tcy" userLabel="Slide Banner View">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                                <subviews>
+                                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTf-aN-bG4">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AOV-Te-AUR">
+                                                                <rect key="frame" x="0.0" y="0.0" width="828" height="300"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="N5I-JE-Fhw">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="828" height="300"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supersonic2" translatesAutoresizingMaskIntoConstraints="NO" id="Dgc-QY-8FJ">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                                                            </imageView>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supersonic22" translatesAutoresizingMaskIntoConstraints="NO" id="T5W-PX-Nl1">
+                                                                                <rect key="frame" x="414" y="0.0" width="414" height="300"/>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="300" id="2fT-wp-uHp"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="N5I-JE-Fhw" secondAttribute="trailing" id="THd-KA-F1X"/>
+                                                                    <constraint firstItem="N5I-JE-Fhw" firstAttribute="leading" secondItem="AOV-Te-AUR" secondAttribute="leading" id="bpI-uL-m0U"/>
+                                                                    <constraint firstItem="N5I-JE-Fhw" firstAttribute="top" secondItem="AOV-Te-AUR" secondAttribute="top" id="fqe-zv-aYi"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="N5I-JE-Fhw" secondAttribute="bottom" id="wPq-U0-D3v"/>
+                                                                </constraints>
+                                                            </view>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="AOV-Te-AUR" firstAttribute="bottom" secondItem="9ic-o0-1Zw" secondAttribute="bottom" id="Ifk-wW-pfP"/>
+                                                            <constraint firstItem="AOV-Te-AUR" firstAttribute="height" secondItem="S6k-1z-hV1" secondAttribute="height" id="Q7z-Kj-bZQ"/>
+                                                            <constraint firstItem="Dgc-QY-8FJ" firstAttribute="width" secondItem="S6k-1z-hV1" secondAttribute="width" id="SPK-Bd-Zvb"/>
+                                                            <constraint firstItem="AOV-Te-AUR" firstAttribute="leading" secondItem="9ic-o0-1Zw" secondAttribute="leading" id="bN0-Kw-ofZ"/>
+                                                            <constraint firstItem="AOV-Te-AUR" firstAttribute="top" secondItem="9ic-o0-1Zw" secondAttribute="top" id="fFp-uN-e3f"/>
+                                                            <constraint firstItem="AOV-Te-AUR" firstAttribute="trailing" secondItem="9ic-o0-1Zw" secondAttribute="trailing" id="fxt-m3-9qS"/>
+                                                        </constraints>
+                                                        <viewLayoutGuide key="contentLayoutGuide" id="9ic-o0-1Zw"/>
+                                                        <viewLayoutGuide key="frameLayoutGuide" id="S6k-1z-hV1"/>
+                                                    </scrollView>
+                                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="VYX-jH-Wro">
+                                                        <rect key="frame" x="10" y="264" width="97.5" height="26"/>
+                                                    </pageControl>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="VYX-jH-Wro" secondAttribute="bottom" constant="10" id="2mu-tF-v27"/>
+                                                    <constraint firstItem="WTf-aN-bG4" firstAttribute="leading" secondItem="XPr-bL-tcy" secondAttribute="leading" id="Yyg-UO-wuK"/>
+                                                    <constraint firstAttribute="bottom" secondItem="WTf-aN-bG4" secondAttribute="bottom" id="ezQ-yj-Hyb"/>
+                                                    <constraint firstAttribute="trailing" secondItem="WTf-aN-bG4" secondAttribute="trailing" id="k5W-Lw-daq"/>
+                                                    <constraint firstItem="WTf-aN-bG4" firstAttribute="top" secondItem="XPr-bL-tcy" secondAttribute="top" id="rD9-R1-KnZ"/>
+                                                    <constraint firstItem="VYX-jH-Wro" firstAttribute="leading" secondItem="XPr-bL-tcy" secondAttribute="leading" constant="10" id="s7h-fl-z3o"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="7Sv-Ek-Lac" secondAttribute="bottom" constant="10" id="3FZ-Fd-9Ba"/>
-                                            <constraint firstItem="7Sv-Ek-Lac" firstAttribute="top" secondItem="RaT-TG-UZf" secondAttribute="top" constant="10" id="DfL-n5-Ybl"/>
-                                            <constraint firstItem="7Sv-Ek-Lac" firstAttribute="leading" secondItem="RaT-TG-UZf" secondAttribute="leading" constant="10" id="P70-bd-33j"/>
-                                            <constraint firstAttribute="trailing" secondItem="7Sv-Ek-Lac" secondAttribute="trailing" constant="10" id="Un7-mx-VbW"/>
+                                            <constraint firstItem="XPr-bL-tcy" firstAttribute="leading" secondItem="RaT-TG-UZf" secondAttribute="leading" id="88P-re-GDG"/>
+                                            <constraint firstItem="XPr-bL-tcy" firstAttribute="top" secondItem="RaT-TG-UZf" secondAttribute="top" id="P26-wb-lGv"/>
+                                            <constraint firstAttribute="bottom" secondItem="XPr-bL-tcy" secondAttribute="bottom" id="m6S-uc-CwA"/>
+                                            <constraint firstAttribute="trailing" secondItem="XPr-bL-tcy" secondAttribute="trailing" id="oP6-JK-Sd9"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -142,6 +187,8 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                     <connections>
                         <outlet property="HeaderView" destination="fMW-sN-atO" id="8nB-bu-BDr"/>
                         <outlet property="ScrollView" destination="ye4-c4-ylb" id="N8g-NS-2Tr"/>
+                        <outlet property="SlideBannerPageControl" destination="VYX-jH-Wro" id="k6C-aw-j3z"/>
+                        <outlet property="SlideBannerScrollView" destination="WTf-aN-bG4" id="Wff-cU-rZd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAp-MK-KAU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -223,8 +270,13 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="play.rectangle.fill" catalog="system" width="128" height="93"/>
+        <image name="supersonic2" width="512" height="288.5"/>
+        <image name="supersonic22" width="155" height="81"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
