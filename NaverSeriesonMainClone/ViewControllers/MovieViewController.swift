@@ -45,7 +45,7 @@ extension MovieViewController {
         // 슬라이드 배너 Delegate 설정
         SlideBannerScrollView.delegate = self
         
-        // 슬라이드 배너 PageControl 좌우패딩 없애기
+        // 슬라이드 배너 PageControl 좌우패딩 없애
         SlideBannerPageControl.backgroundStyle = .minimal
         SlideBannerPageControl.allowsContinuousInteraction = false
     }
